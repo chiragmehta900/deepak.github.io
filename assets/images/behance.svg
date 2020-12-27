@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.158" height="43.444" viewBox="0 0 62.158 43.444">
+  <defs>
+    <filter id="Icon_awesome-behance" x="0" y="0" width="62.158" height="43.444" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-behance)">
+    <path id="Icon_awesome-behance-2" data-name="Icon awesome-behance" d="M20.2,19.391a6.608,6.608,0,0,0,4.215-6.444c0-6.148-4.58-7.646-9.866-7.646H0V36.163H14.96c5.608,0,10.876-2.691,10.876-8.961,0-3.875-1.837-6.74-5.634-7.811ZM6.784,10.57h6.366c2.447,0,4.65.688,4.65,3.527,0,2.621-1.715,3.675-4.136,3.675H6.784v-7.2ZM14.037,30.92H6.784v-8.5h7.393c2.987,0,4.876,1.245,4.876,4.406,0,3.117-2.255,4.093-5.016,4.093ZM45.255,9.96H32.742V6.921H45.255V9.96Zm4.9,15.352c0-6.609-3.866-12.122-10.876-12.122-6.81,0-11.434,5.12-11.434,11.825,0,6.958,4.38,11.73,11.434,11.73,5.338,0,8.8-2.4,10.458-7.515H44.324c-.583,1.907-2.987,2.917-4.85,2.917-3.6,0-5.486-2.107-5.486-5.686H50.106C50.132,26.1,50.158,25.7,50.158,25.312ZM34,22.6a4.8,4.8,0,0,1,5.094-4.772c3.083,0,4.633,1.811,4.894,4.772Z" transform="translate(6 -2.3)" fill="#fff"/>
+  </g>
+</svg>

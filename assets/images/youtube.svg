@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56.089" height="43" viewBox="0 0 56.089 43">
+  <defs>
+    <filter id="Icon_awesome-youtube" x="0" y="0" width="56.089" height="43" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-youtube)">
+    <path id="Icon_awesome-youtube-2" data-name="Icon awesome-youtube" d="M44.218,9.35a5.54,5.54,0,0,0-3.9-3.923C36.881,4.5,23.094,4.5,23.094,4.5s-13.787,0-17.225.927a5.54,5.54,0,0,0-3.9,3.923C1.05,12.811,1.05,20.031,1.05,20.031s0,7.22.921,10.681a5.457,5.457,0,0,0,3.9,3.861c3.438.927,17.225.927,17.225.927s13.787,0,17.225-.927a5.457,5.457,0,0,0,3.9-3.861c.921-3.461.921-10.681.921-10.681s0-7.22-.921-10.681ZM18.585,26.587V13.476l11.523,6.556L18.585,26.587Z" transform="translate(4.95 -1.5)" fill="#fff"/>
+  </g>
+</svg>

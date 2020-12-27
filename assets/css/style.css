@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('Gotham-Light.svg#Gotham-Light') format('svg'),
+         url('Gotham-Light.ttf') format('truetype'),
+         url('Gotham-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+#whoAreYou{
+    margin: 0;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+  }
+  .btn-container {
+    text-align: center;
+    margin: 100px auto;
+  }
+  .btn-primary {
+    color: #000 !important;
+    width: 130px !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+    border-radius: 40px !important;
+    font-weight: 900;
+    margin-top: 30px;
+}
+body{
+    display: grid;
+    justify-content: center;
+    color: #fff;
+}
+.top-de{
+    position: absolute;
+    top: 30px;
+}
+.row{
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+.pay img{
+    height: 100px;
+}
+.social-media img{
+    height: 40px;
+}
+.design img{
+    height: 100px;
+}
+.design{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-idea h2{
+    max-width: 300px;
+    margin: auto;
+    font-family: 'Gotham-Light';
+}
+.logo-gen h2{
+    font-family: 'Gotham-Light';
+}
+.logo-gen{
+    display: flex;
+    justify-content: flex-end;
+}
+.social-media {
+    display: grid;
+    justify-content: center;
+}
+.logo-love{
+    display: grid;
+    justify-content: center;
+}
+.logo-love img{
+    height: 70px;
+}
+@media only screen and (max-width: 767px){
+    .row {
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+    .logo-gen{
+        display: none;
+    }
+    .pay{
+        justify-content: center;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .logo-idea h2 {
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .design{
+        display: block !important;
+    }
+    .design img {
+        height: 40px;
+        justify-content: center;
+        display: flex;
+    }
+    .top-back-de img{
+        height: 150px;
+    }
+    .pay img {
+        height: 50px;
+    }
+    .social-media img {
+        height: 25px;
+    }
+    .logo-love img{
+        height: 50px;
+    }
+}
